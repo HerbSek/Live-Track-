@@ -1,0 +1,3 @@
+Haar Cascades : cascade classifiers based on Haar features.
+(Paul Viola and Micheal Jones)
+* Haar features 
