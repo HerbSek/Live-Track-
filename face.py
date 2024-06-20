@@ -1,5 +1,5 @@
 # Detection Framework  
-# ///// cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_alt.xml')  //////
+
 import cv2
 import numpy as np
 
@@ -19,6 +19,7 @@ while True:
     # face_rectangle = face_cascade.detectMultiScale(gray, 1.3, 5)
     face_rectangle = face_cascade.detectMultiScale(gray, 1.1, 5)
     for (x,y,w,h) in face_rectangle:
+        
         cv2.rectangle(frame, (x,y), (x+w, y+h), (255,0,0), 2)
     cv2.imshow('Input', input1)
     cv2.imshow('Face Detector', frame)

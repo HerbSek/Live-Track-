@@ -1,3 +1,6 @@
 Haar Cascades : cascade classifiers based on Haar features.
 (Paul Viola and Micheal Jones)
 * Haar features 
+
+
+# ///// cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_alt.xml')  //////
